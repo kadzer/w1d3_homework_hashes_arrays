@@ -28,5 +28,8 @@ n_i = {
 united_kingdom.push(n_i)
 
 # Use a loop to print the names of all the countries in the UK.
+for each in united_kingdom
+	p each[:name]
+end
 
 # Use a loop to find the total population of the UK.
