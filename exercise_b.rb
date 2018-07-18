@@ -88,3 +88,4 @@ users["Erik"][:home_town] = "Edinburgh"
 users["Erik"][:pets].push({name:"Fluffy",species: "dog"})
 
 # Add another person to the users hash
+users.merge!("Kas" => {:home_town => "Riga"})
