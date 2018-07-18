@@ -10,6 +10,8 @@ stops = [
 stops.push("Edinburgh Waverley")
 
 # Add "Glasgow Queen St" to the start of the array
+stops.unshift("Glasgow Queen St")
+
 # Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
 # Work out the index position of "Linlithgow"
 # Remove "Livingston" from the array using its name
