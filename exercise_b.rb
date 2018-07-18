@@ -82,5 +82,7 @@ p avril_even
 users["Erik"][:lottery_numbers].push(7)
 
 # Change Erik's hometown to Edinburgh
+users["Erik"][:home_town] = "Edinburgh"
+p users["Erik"][:home_town]
 # Add a pet dog to Erik called "Fluffy"
 # Add another person to the users hash
