@@ -32,6 +32,9 @@ stops[2]
 stops.at(2)
 
 # Reverse the positions of the stops in the array
-p stops.reverse
+stops.reverse
 
 # Print out all the stops using a for loop
+for each in stops
+	p each
+end
