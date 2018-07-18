@@ -33,3 +33,8 @@ for each in united_kingdom
 end
 
 # Use a loop to find the total population of the UK.
+total = 0
+for each in united_kingdom
+	total += each[:population]
+end
+p "The total number of population in UK is #{total}"
