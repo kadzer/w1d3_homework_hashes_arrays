@@ -28,9 +28,10 @@ stops.delete_at(2)
 stops.count #7 stops if we print this method
 
 # How many ways can we return "Falkirk High" from the array?
-p stops[2]
-p stops.at(2)
+stops[2]
+stops.at(2)
 
 # Reverse the positions of the stops in the array
+p stops.reverse
 
 # Print out all the stops using a for loop
