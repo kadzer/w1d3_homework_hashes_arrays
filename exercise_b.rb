@@ -78,9 +78,9 @@ for each in users["Avril"][:lottery_numbers]
 end
 p avril_even
 
-# if each % 2 == 0
-
 # Erik is one lottery number short! Add the number 7 to be included in his lottery numbers
+users["Erik"][:lottery_numbers].push(7)
+
 # Change Erik's hometown to Edinburgh
 # Add a pet dog to Erik called "Fluffy"
 # Add another person to the users hash
