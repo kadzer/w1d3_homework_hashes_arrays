@@ -67,6 +67,8 @@ p users["Erik"][:lottery_numbers]
 p users["Avril"][:pets][0][:species]
 
 # Get the smallest of Erik's lottery numbers
+p users["Erik"][:lottery_numbers].sort.first
+
 # Return an array of Avril's lottery numbers that are even
 # Erik is one lottery number short! Add the number 7 to be included in his lottery numbers
 # Change Erik's hometown to Edinburgh
